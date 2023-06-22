@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %} BOOK details of book number  {% endblock title %}
+{% block content %}
+<h1>Book Detail</h1>
+<ul>
+    
+
+    <li>
+        <p>Book ID: {{ Books.id }}</p>
+        <p>Book Name: {{ Books.title }}</p>
+        <p>Description: {{ Books.description }}</p>
+
+    </li>
+     
+</ul>
+
+{% endblock content %}
